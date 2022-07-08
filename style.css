@@ -7,12 +7,9 @@ body {
     
 }
 
-
-
 .header, .container {
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
 h1{
@@ -33,6 +30,10 @@ h1{
     box-shadow: 0 0 10px #3D262A inset;
 }
 
+.inputField:focus{
+    outline:none;
+    border: #EAB64D;
+}
 .btn{
     padding: 20px;
     background-color: #127C56;
@@ -40,8 +41,7 @@ h1{
     border-radius: 0 20px 20px 0;
     font-size: 22px;
     color:#EAB64D;
-    box-shadow: 0 0 10px #3D262A inset;
-    
+    box-shadow: 0 0 10px #3D262A inset;  
 }
 
 .toDoAdded{
