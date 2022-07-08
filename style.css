@@ -31,10 +31,11 @@ h1{
     outline:none;
 }
 
-.inputField:focus{
+.inputField:focus, .inputField:active{
     outline:none;
     box-shadow: 0 0 15px #3D262A inset;
 }
+
 .btn{
     padding: 20px;
     background-color: #127C56;
