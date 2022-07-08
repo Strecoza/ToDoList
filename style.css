@@ -27,12 +27,13 @@ h1{
     color: #3D262A;
     border: none;
     border-radius:20px 0 0 20px;
-    box-shadow: 0 0 10px #3D262A inset;
+    box-shadow: 0 0 7px #3D262A inset;
+    outline:none;
 }
 
 .inputField:focus{
     outline:none;
-    border: #EAB64D;
+    box-shadow: 0 0 15px #3D262A inset;
 }
 .btn{
     padding: 20px;
