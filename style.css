@@ -1,0 +1,88 @@
+body {
+    background-image: url(todolist.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    
+}
+
+
+
+.header, .container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1{
+    font-size: 60px;
+    background: linear-gradient(to left, #3D262A, #127C56, #3D262A);
+    text-shadow: 2px  #EAB64D outside;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+}
+
+.inputField{
+    padding: 10px;
+    width: 40%;
+    font-size: 22px;
+    color: #3D262A;
+    border: none;
+    border-radius:20px 0 0 20px;
+    box-shadow: 0 0 10px #3D262A inset;
+}
+
+.btn{
+    padding: 20px;
+    background-color: #127C56;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    font-size: 22px;
+    color:#EAB64D;
+    box-shadow: 0 0 10px #3D262A inset;
+    
+}
+
+.toDoAdded{
+    background:  #EAB64D;
+    list-style-type: none;
+    height: 40px;
+    width: 40%;
+    text-align: center;
+    color:rrgb(43, 41, 41);
+    font-size: 22px;
+    border-bottom: 1px solid #f1efea;
+    border-radius: 10px;
+    vertical-align: center;
+}
+
+.toDoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+}
+
+.toDoCompleted{
+    background:#a89d86;
+    color: rgb(43, 41, 41);
+    font-weight: bold;
+    text-decoration: line-through;
+    transition: all 2s ease;  
+    opacity: .3;
+}
+
+@media all and (max-width: 800px){
+    h1{
+        font-size: 40px;
+        justify-content: center;
+    }
+}
+
+@media all and(max-width: 500px){
+    h1{
+        font-size:20px;
+        justify-content: center;
+    }
+}
